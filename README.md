@@ -1,2 +1,2 @@
 # script
-script for my computer
+* **daily.py** : 日常脚本
