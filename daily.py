@@ -41,7 +41,7 @@ def signin(x, y):
     os.system('adb shell input tap 1010 1853')    # 进入应用第一页
     os.system('adb shell input swipe 800 1500 400 1500')    # 进入应用第二页
     os.system('adb shell input tap 650 1700')    # 进入签到页面
-    time.sleep(1)
+    time.sleep(2)
     os.system('adb shell input tap 1000 125')    # 签到确定
     time.sleep(1)
     os.system('adb shell input tap 95 150')
